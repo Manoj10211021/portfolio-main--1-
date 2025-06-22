@@ -10,7 +10,7 @@ const projects = [
     description:
       " Comprehensive agricultural management system designed to streamline farm operations.Built with React for a user-friendly frontend interface and Node.js for backend.",
     src: {farmersMenu} ,
-    link: "https://i.postimg.cc/pTcHFFQp/farmers.jpg",
+    link: "https://i.postimg.cc/cLbDFKGq/Screenshot-2025-06-22-161913.png",
     color: "#5196fd",
     githubLink: "https://github.com/Manoj10211021/Farmer-s-Assistant.git",
     liveLink: "",

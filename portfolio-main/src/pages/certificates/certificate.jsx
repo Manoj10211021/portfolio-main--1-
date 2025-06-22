@@ -19,13 +19,13 @@ const certificates = [
     title: "JavaScript Udemy Course",
     issuer: "Udemy",
     year: "2025",
-    link: "https://drive.google.com/file/d/1bf5ZXveX24azSKYXurDAVr-EQ5Q5K_Jp/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1Z-Cd3bsWLfZzucWsUPAd00y119eneVX6/view?usp=sharing",
   },
   {
     title: "Node JS Udemy Course",
     issuer: "Udemy",
     year: "2025",
-    link: "https://drive.google.com/file/d/1Bg5Sw9dW4QSn_pg41WvanMiWu9Ccus51/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1bf5ZXveX24azSKYXurDAVr-EQ5Q5K_Jp/view?usp=drive_link",
   },
   {
     title: "REST APIs Udemy Course",
@@ -33,6 +33,17 @@ const certificates = [
     year: "2025",
     link: "https://drive.google.com/file/d/1Bg5Sw9dW4QSn_pg41WvanMiWu9Ccus51/view?usp=drive_link",
   },
+   {
+    title: "Forage Commonwealth Bank Virtual Experience",
+    issuer: "Forage",
+    year: "2025",
+    link: "https://drive.google.com/file/d/1qujWxq8aEBo40tv1DExjt5I-H1-Iroj3/view?usp=sharing",
+  },
+   {
+    title: "Forage TATA Data Visualization Virtual Experience",
+    issuer: "Forage",
+    year: "2025",
+    link: "https://drive.google.com/file/d/1UorTtVZNEGUN_FwReg34PAcyOw5_GIyw/view?usp=sharing"},
 ];
 
 const Certificates = () => {
