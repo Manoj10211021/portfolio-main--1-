@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import EducationLoader from "@/components/ui/EducationLoader";
+import  { useState } from "react";
+//import EducationLoader from "@/components/ui/EducationLoader";
 import {
-  Star,
+  
   Award,
   Calendar,
   BookOpen,
-  GraduationCap,
+  
   Trophy,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -32,7 +32,7 @@ const EducationSection = () => {
       achievements: ["Percentage: 96%", "Subject: Science"],
       skills: ["physics", "Chemistry", "Math", "Biology"],
       description:
-        "Developed strong analytical and critical thinking skills and Problem solving abilities through comprehensive study of competeative exams.",
+        "Developed strong analytical and critical thinking skills and Problem solving abilitiesthrough comprehensive study of competeative exams.",
     },
   ];
 

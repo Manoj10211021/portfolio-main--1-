@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./assets/css/index.css";
 import Experience from "./pages/Experience/Experience";
 import Contact from "./pages/Contact/Contact";
@@ -9,6 +9,7 @@ import Skills from "./pages/Skills/Skills";
 import Education from "./pages/Education/Education";
 
 import { Route, Routes } from "react-router-dom";
+import  Certificate  from "./pages/certificates/certificate.jsx";
 
 export default function App() {
   const [isOnePage, setIsOnePage] = useState(false); // Toggle state
@@ -24,6 +25,8 @@ export default function App() {
           <Skills />
           <Experience />
           <Education />
+          <Projects />
+          <Certificate />
           <Contact />
         </>
       ) : (
@@ -35,6 +38,8 @@ export default function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/certificates" element={<Certificate />} />
+          
         </Routes>
       )}
     </>
