@@ -2,7 +2,7 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
-import farmersMenu from "@/assets/images/farmers.jpg";
+import farmersMenu from "@/assets/images/farmers.png";
 
 const projects = [
   {
@@ -10,7 +10,7 @@ const projects = [
     description:
       " Comprehensive agricultural management system designed to streamline farm operations.Built with React for a user-friendly frontend interface and Node.js for backend.",
     src: {farmersMenu} ,
-    link: "https://i.postimg.cc/cLbDFKGq/Screenshot-2025-06-22-161913.png",
+    link: "https://i.postimg.cc/QtFMZLZ3/Screenshot-2025-07-13-172036.png",
     color: "#5196fd",
     githubLink: "https://github.com/Manoj10211021/Farmer-s-Assistant.git",
     liveLink: "",
@@ -24,6 +24,26 @@ const projects = [
     color: "#8f89ff",
     githubLink: "https://github.com/Manoj10211021/Blog--app.git",
     liveLink: "",
+  },
+   {
+    title: "GoodNotes",
+    description:
+      " GoodNotes is a full-stack web application designed for managing personal notes with user authentication and a clean, responsive UI. Built using the MERN stack (MongoDB, Express.js, React, Node.js), it allows users to register, log in, and securely create, read, update, and delete their notes.",
+    src: "tree.jpg",
+    link: "https://i.postimg.cc/rs6q6K91/Screenshot-2025-06-22-161737.png",
+    color: "#8f89ff",
+    githubLink: "https://github.com/Manoj10211021/noteme",
+    liveLink: "https://noteme-k3wn.vercel.app/login",
+  },
+   {
+    title: "Portfolio Website",
+    description:
+      " Personal portfolio website showcasing my projects, skills, and experience. Built with React and Tailwind CSS for a modern, responsive design.",
+    src: "tree.jpg",
+    link: "https://i.postimg.cc/J4vcfmw1/Screenshot-2025-07-13-181213.png",
+    color: "#8f89ff",
+    githubLink: "https://github.com/Manoj10211021/portfolio-Manoj.git",
+    liveLink: "https://manoj8112014.vercel.app/",
   },
  // {
     // title: "🚀 CodeWhisperer",
